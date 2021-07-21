@@ -34,3 +34,10 @@ Unit testing was done for the Python Implementation for API testing.
  ###  Tools used:
   1. Framework: Pytest
 
+## Answers for the questions regarding Testing and Testability were also added to this repository
+### Questions that were answered;
+  1. How do you review code? 
+  2. How do you enforce coding standards? 
+  3. How do you plan what kind of approach you take for test automation - what libraries to use, how does it work in couple of years, how to make it easy to maintain, etc?        What are the main points to consider? 
+  4. Code testability, how do you enforce it? 
+  5. How do you make sure that the product is testable? 
