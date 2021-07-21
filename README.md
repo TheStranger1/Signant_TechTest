@@ -16,8 +16,6 @@ In the UI Automation part the following things were tested:
 ### Design Pattern:
 I've used Page OBject Model (POM) for the UI automation so that it reduces code duplication and improves test maintenance. Also, it makes the code cleaner and easy to understand.
 
-### Result Included:
-
 ##  API Automation:
 In the API Automation the following things were tested:
   1. Fetching user data
@@ -28,14 +26,15 @@ In the API Automation the following things were tested:
   1. Python: Python 3.7
   2. IDE: PyCharm
 
-##  Unit Testing tool:
+##  Unit Testing:
 Unit testing was done for the Python Implementation for API testing. 
 
  ###  Tools used:
   1. Framework: Pytest
 
 ## Answers for the questions regarding Testing and Testability were also added to this repository
-### Questions that were answered;
+
+### Questions that were answered:
   1. How do you review code? 
   2. How do you enforce coding standards? 
   3. How do you plan what kind of approach you take for test automation - what libraries to use, how does it work in couple of years, how to make it easy to maintain, etc?        What are the main points to consider? 
