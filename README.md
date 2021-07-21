@@ -1,5 +1,5 @@
 # Signant_TechTest
-This repository contains tasks from Signant Technical Assessment.
+This repository contains tasks from Signant Health's Technical Assessment for the position of Test Automation Engineer. 
 
 ##  UI Automation:
 In the UI Automation part the following things were tested:
