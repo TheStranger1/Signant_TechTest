@@ -1,7 +1,7 @@
 # Signant_TechTest
 UI &amp; API Automation
 
-##UI Automation:
+##  UI Automation:
 In the UI Automation part the following things were tested:
   1. New User Registration Process 
   2. Login functionality works for the Registered users
