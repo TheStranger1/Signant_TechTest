@@ -14,7 +14,7 @@ In the UI Automation part the following things were tested:
   4. IDE: PyCharm
 
 ### Design Pattern:
-I've used Page OBject Model (POM) for the UI automation so that it reduces code duplication and improves test maintenance. Also, it makes the code cleaner and easy to understand.
+I've used Page Object Model (POM) for the UI automation so that it reduces code duplication and improves test maintenance. Also, it makes the code cleaner and easy to understand.
 
 ##  API Automation:
 In the API Automation the following things were tested:
