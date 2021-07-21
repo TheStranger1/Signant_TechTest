@@ -1,5 +1,5 @@
 # Signant_TechTest
-UI &amp; API Automation
+This repository contains tasks from Signant Technical Assessmet.
 
 ##  UI Automation:
 In the UI Automation part the following things were tested:
@@ -7,19 +7,19 @@ In the UI Automation part the following things were tested:
   2. Login functionality works for the Registered users
   3. Reviewing User Information
 
-###Tools used:
+### Tools used:
   1. Framework: Robot Framework
   2. Library:   Selenium Library
   3. Python: Python 3.7
   4. IDE: PyCharm
 
-###Design Pattern:
+### Design Pattern:
 I've used Page OBject Model (POM) for the UI automation so that it reduces code duplication and improves test maintenance. Also, it makes the code cleaner and easy to understand.
 
-Result Included:
+### Result Included:
 
-API Automation:
+##  API Automation:
 
 
-Unit Testing tool:
+##  Unit Testing tool:
 
