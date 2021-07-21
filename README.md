@@ -32,6 +32,13 @@ Unit testing was done for the Python Implementation for API testing.
  ###  Tools used:
   1. Framework: Pytest
 
+## Suggestions for improvement:
+  1. A short description about the application could be added to homepage 
+  2. Username characters should be limited to a certain number 
+  3. Firstname & lastname should take only string values
+  4. Phone Number should only take integer values
+  5. Password reset option could be added
+
 ## Answers for the questions regarding Testing and Testability were also added to this repository
 
 ### Questions that were answered:
