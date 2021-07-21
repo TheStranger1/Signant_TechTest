@@ -27,17 +27,17 @@ In the API Automation the following things were tested:
   2. IDE: PyCharm
 
 ##  Unit Testing:
-Unit testing was done for the Python Implementation for API testing. 
+Unit testing was done for the Python Implementation for API testing where I tested the test code for API Automation. 
 
  ###  Tools used:
   1. Framework: Pytest
 
 ## Suggestions for improvement:
-  1. A short description about the application could be added to homepage 
-  2. Username characters should be limited to a certain number 
-  3. Firstname & lastname should take only string values
-  4. Phone Number should only take integer values
-  5. Password reset option could be added
+  1. A short description about the application could be added to homepage. 
+  2. On the data fields, for example while entering username, characters should be limited to a certain number. 
+  3. Firstname & lastname should take only string values.
+  4. Phone Number should only take integer values.
+  5. Password reset option could be added.
 
 ## Answers for the questions regarding Testing and Testability were also added to this repository
 
