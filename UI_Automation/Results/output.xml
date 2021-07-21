@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.7.0 on win32)" generated="20210721 02:48:39.423" rpa="false" schemaversion="2">
+<suite id="s1" name="TestCase1" source="C:\Users\thefi\PycharmProjects\Signant_Test\UI_Automation\TestCases\TestCase1.robot">
+<test id="s1-t1" name="Registration Test">
+<kw name="Open my browser" library="CommonKeywords" type="SETUP">
+<doc>This Keyword is used for opening browser and maximizing browser window</doc>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://127.0.0.1:8080/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210721 02:48:39.590" level="INFO">Opening browser 'chrome' to base url 'http://127.0.0.1:8080/'.</msg>
+<status status="PASS" starttime="20210721 02:48:39.590" endtime="20210721 02:48:40.823"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210721 02:48:40.824" endtime="20210721 02:48:40.934"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:39.590" endtime="20210721 02:48:40.934"/>
+</kw>
+<kw name="Click Register link from Home Page" library="CommonKeywords">
+<doc>This Keyword is used for opening the Register window</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${btn_HomePageRegister}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:40.937" level="INFO">Clicking element 'xpath:/html/body/nav/ul/li[1]/a'.</msg>
+<status status="PASS" starttime="20210721 02:48:40.937" endtime="20210721 02:48:41.057"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:40.937" endtime="20210721 02:48:41.057"/>
+</kw>
+<kw name="Enter UserName" library="RegisterKeywords">
+<arg>${username}</arg>
+<doc>This keyword is used for entering username while registering</doc>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_RegistrationUserName}</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:41.060" level="INFO">Typing text 'John' into text field 'name:username'.</msg>
+<status status="PASS" starttime="20210721 02:48:41.060" endtime="20210721 02:48:41.129"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:41.060" endtime="20210721 02:48:41.138"/>
+</kw>
+<kw name="Enter Password" library="RegisterKeywords">
+<arg>${password}</arg>
+<doc>This keyword is used for entering password while registering</doc>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>${txt_RegistrationPassword}</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:41.138" level="INFO">Typing password into text field 'name:password'.</msg>
+<msg timestamp="20210721 02:48:41.163" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20210721 02:48:41.199" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20210721 02:48:41.138" endtime="20210721 02:48:41.199"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:41.138" endtime="20210721 02:48:41.199"/>
+</kw>
+<kw name="Enter FirstName" library="RegisterKeywords">
+<arg>${firstname}</arg>
+<doc>This keyword is used for entering first name while registering</doc>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_RegistrationFirstName}</arg>
+<arg>${firstname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:41.199" level="INFO">Typing text 'John' into text field 'name:firstname'.</msg>
+<status status="PASS" starttime="20210721 02:48:41.199" endtime="20210721 02:48:41.270"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:41.199" endtime="20210721 02:48:41.270"/>
+</kw>
+<kw name="Enter FamilyName" library="RegisterKeywords">
+<arg>${lastname}</arg>
+<doc>This keyword is used used for entering last name while registering</doc>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_RegistrationFamilyName}</arg>
+<arg>${lastname}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:41.270" level="INFO">Typing text 'Michael' into text field 'name:lastname'.</msg>
+<status status="PASS" starttime="20210721 02:48:41.270" endtime="20210721 02:48:41.339"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:41.270" endtime="20210721 02:48:41.339"/>
+</kw>
+<kw name="Enter PhoneNumber" library="RegisterKeywords">
+<arg>${phone}</arg>
+<doc>This keyword is used for entering phone number while registering</doc>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_RegistrationPhoneNumber}</arg>
+<arg>${phone}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:41.339" level="INFO">Typing text '555555' into text field 'name:phone'.</msg>
+<status status="PASS" starttime="20210721 02:48:41.339" endtime="20210721 02:48:41.408"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:41.339" endtime="20210721 02:48:41.408"/>
+</kw>
+<kw name="Click Register" library="RegisterKeywords">
+<doc>This keyword is used for clicking the Register button after filling up the details</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${btn_Register}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:41.408" level="INFO">Clicking element 'xpath:/html/body/section/form/input[6]'.</msg>
+<status status="PASS" starttime="20210721 02:48:41.408" endtime="20210721 02:48:41.488"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:41.408" endtime="20210721 02:48:41.488"/>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20210721 02:48:41.488" endtime="20210721 02:48:44.085"/>
+</kw>
+<doc>This testcase is for checking the user Registration process</doc>
+<tag>Robot Test</tag>
+<status status="PASS" starttime="20210721 02:48:39.590" endtime="20210721 02:48:44.085"/>
+</test>
+<test id="s1-t2" name="Login Test">
+<kw name="Open my browser" library="CommonKeywords" type="SETUP">
+<doc>This Keyword is used for opening browser and maximizing browser window</doc>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://127.0.0.1:8080/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210721 02:48:44.085" level="INFO">Opening browser 'chrome' to base url 'http://127.0.0.1:8080/'.</msg>
+<status status="PASS" starttime="20210721 02:48:44.085" endtime="20210721 02:48:45.238"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210721 02:48:45.238" endtime="20210721 02:48:45.365"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:44.085" endtime="20210721 02:48:45.365"/>
+</kw>
+<kw name="Click Login link from Home Page" library="CommonKeywords">
+<doc>This Keyword is used for opening the Log in window</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${btn_HomePageLogin}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:45.365" level="INFO">Clicking element 'xpath:/html/body/nav/ul/li[2]/a'.</msg>
+<status status="PASS" starttime="20210721 02:48:45.365" endtime="20210721 02:48:45.486"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:45.365" endtime="20210721 02:48:45.486"/>
+</kw>
+<kw name="Enter UserName in Login" library="LoginKeywords">
+<arg>${username}</arg>
+<doc>This keyword is used for entering username while login</doc>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txt_LoginUserName}</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:45.486" level="INFO">Typing text 'John' into text field 'name:username'.</msg>
+<status status="PASS" starttime="20210721 02:48:45.486" endtime="20210721 02:48:45.574"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:45.486" endtime="20210721 02:48:45.577"/>
+</kw>
+<kw name="Enter Password in Login" library="LoginKeywords">
+<arg>${password}</arg>
+<doc>This keyword is used for entering password while login</doc>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>${txt_LoginPassword}</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:45.577" level="INFO">Typing password into text field 'name:password'.</msg>
+<msg timestamp="20210721 02:48:45.617" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20210721 02:48:45.653" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20210721 02:48:45.577" endtime="20210721 02:48:45.653"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:45.577" endtime="20210721 02:48:45.653"/>
+</kw>
+<kw name="Click Login" library="LoginKeywords">
+<doc>This keyword is used for clicking the log in button</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${btn_Login}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:45.653" level="INFO">Clicking element 'xpath:/html/body/section/form/input[3]'.</msg>
+<status status="PASS" starttime="20210721 02:48:45.653" endtime="20210721 02:48:45.838"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:45.653" endtime="20210721 02:48:45.838"/>
+</kw>
+<kw name="Verify Successful Login" library="LoginKeywords">
+<doc>This keyword is used used for verifying successful login</doc>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>User Information</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20210721 02:48:45.855" level="INFO">Current page contains text 'User Information'.</msg>
+<status status="PASS" starttime="20210721 02:48:45.838" endtime="20210721 02:48:45.855"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:45.838" endtime="20210721 02:48:45.855"/>
+</kw>
+<kw name="Verifying user information" library="MainViewKeywords">
+<doc>This keyword is used for verifying user information</doc>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${txt_AfterLoginUserName}</var>
+<arg>${txt_AfterLoginUserName}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:45.874" level="INFO">${txt_AfterLoginUserName} = John</msg>
+<status status="PASS" starttime="20210721 02:48:45.857" endtime="20210721 02:48:45.874"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${txt_AfterLoginFirstName}</var>
+<arg>${txt_AfterLoginFirstName}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:45.890" level="INFO">${txt_AfterLoginFirstName} = John</msg>
+<status status="PASS" starttime="20210721 02:48:45.874" endtime="20210721 02:48:45.890"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${txt_AfterLoginLastName}</var>
+<arg>${txt_AfterLoginLastName}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:45.906" level="INFO">${txt_AfterLoginLastName} = Michael</msg>
+<status status="PASS" starttime="20210721 02:48:45.890" endtime="20210721 02:48:45.906"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${txt_AfterLoginPhoneNumber}</var>
+<arg>${txt_AfterLoginPhoneNumber}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:45.938" level="INFO">${txt_AfterLoginPhoneNumber} = 555555</msg>
+<status status="PASS" starttime="20210721 02:48:45.906" endtime="20210721 02:48:45.938"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${txt_AfterLoginUserName}</arg>
+<arg>${username}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20210721 02:48:45.938" endtime="20210721 02:48:45.938"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${txt_AfterLoginFirstName}</arg>
+<arg>${firstname}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20210721 02:48:45.938" endtime="20210721 02:48:45.938"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${txt_AfterLoginLastName}</arg>
+<arg>${lastname}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20210721 02:48:45.938" endtime="20210721 02:48:45.938"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${txt_AfterLoginPhoneNumber}</arg>
+<arg>${phone}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20210721 02:48:45.938" endtime="20210721 02:48:45.938"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:45.857" endtime="20210721 02:48:45.938"/>
+</kw>
+<kw name="Click Logout" library="LogoutKeywords">
+<doc>This keyword is used for clicking the logout button</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${btn_logout}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20210721 02:48:45.938" level="INFO">Clicking element 'xpath:/html/body/nav/ul/li[2]/a'.</msg>
+<status status="PASS" starttime="20210721 02:48:45.938" endtime="20210721 02:48:46.032"/>
+</kw>
+<status status="PASS" starttime="20210721 02:48:45.938" endtime="20210721 02:48:46.032"/>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20210721 02:48:46.032" endtime="20210721 02:48:48.447"/>
+</kw>
+<doc>This testcase is for checking the log in functionality</doc>
+<tag>Robot Test</tag>
+<status status="PASS" starttime="20210721 02:48:44.085" endtime="20210721 02:48:48.447"/>
+</test>
+<status status="PASS" starttime="20210721 02:48:39.431" endtime="20210721 02:48:48.447"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">Robot Test</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="TestCase1">TestCase1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
