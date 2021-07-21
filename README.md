@@ -47,3 +47,6 @@ Unit testing was done for the Python Implementation for API testing where I test
   3. How do you plan what kind of approach you take for test automation - what libraries to use, how does it work in couple of years, how to make it easy to maintain, etc?        What are the main points to consider? 
   4. Code testability, how do you enforce it? 
   5. How do you make sure that the product is testable? 
+
+##  On a short note, I tried my best to deliver the best result but I believe there's always some scope for improvement. Hence, I'm always willing to learn new things and improve my skills. 
+
